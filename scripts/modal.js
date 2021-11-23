@@ -2,57 +2,58 @@ $(document).ready(function() {
   // MODAL
   var modalText = {
     discover: {
-      title: 'ChowNow Discover',
-      tag: 'FOOD ORDERING PLATFORM.',
+      title: 'Polyfund Finance',
+      tag: 'Polygon Finance Dapp.',
       detail:
-        'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-      link: 'https://eat.chownow.com/'
+        'PolyFund.finance is a next-generation yield farming protocol on the Polygon Network with lots of features such as vaults, staking, yield farming, auto decreasing emission rate, auto liquidity and referrals. This will make sure that our $FUND token stay stable over long term which will assure stable APR and earnings. We are also fully audited by the Paladin Blockchain Security.',
+      link: 'https://polyfund.finance'
     },
     ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
-      detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260'
+      title: 'Cryptosphere Finance',
+      tag: 'BSC Finance Dapp.',
+      detail: 'Cryptosphere Finance is a new generation finance dapp on Binance Smart Chain.',
+      link: 'https://cryptoshere-frontend-farm-whitehat0917.vercel.app'
     },
     newrelic: {
-      title: 'NewRelic.com',
-      tag: 'APPLICATION PERFORMANCE MONITORING.',
-      detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.newrelic.com'
+      title: 'Mumuswap Finance',
+      tag: 'Polygon Finance Dapp',
+      detail: 'The mythical and magical Decentralized Exchange, Staking, and Farming Protocol on BSC. Mumuswap is run by a team of innovative and trusted developers with users safety being the 1st priority',
+      link: 'https://mumuswap.finance'
     },
     roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
+      title: 'Doge Game',
+      tag: 'Crypto Smart Contract Game',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+        'This is famous Fomo Game based on Smart Contract game logic.',
+      link: 'https://fomo-52505.web.app/'
     },
     walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
+      title: 'Krypto Gangsters NFT',
+      tag: 'NFT mint site',
       detail:
-        'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
+        "All 10,000 Krypto Gangsters are Unique. There is no one like another. Each Gangster is randomly generated with it's own characteristics, expression and extra's.",
+      link: 'https://kryptogangsters.io'
     },
     powur: {
-      title: 'Powur.com',
-      tag: 'CONSUMER POWERED MARKETING.',
+      title: 'Ghost Marketer',
+      tag: 'NFT Marketplace',
       detail:
-        'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
+        'GhostMarket is the most powerful cross-chain Non-Fungible Token (NFT) marketplace in the world! It sports a comprehensive selection of features wrapped in a gorgeous and intuitive user interface.',
+      link: 'https://ghostmarket.io/'
     },
     mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
+      title: 'Strite NFT Marketplace',
+      tag: 'NFT Marketplace',
       detail:
-        'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
+        'Main focus is to create a sustainable and user-friendly marketplace where social media influencers can create and sell their own custom non-fungible tokens.',
+      link: 'https://www.strite.co/'
     },
     never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
+      title: 'Coin Racer',
+      tag: 'NFT Game Site.',
       detail:
-        'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
+        'Coinracer is a low-poly-style blockchain-powered multiplayer racing game. CSP or CoinracerSmartPool system controls the prize pool redistribution between winners of the race. Coinracer runs on WebGL with the back-end connected to web3.js API to send transactions to smart contracts and back.',
+      link: 'https://coinracer.io'
     },
     themall: {
       title: 'The Mall',
@@ -160,7 +161,7 @@ $(document).ready(function() {
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
+          "url('img/slides/" + id + '-' + index + ".png') center center/cover",
         backgroundSize: 'cover'
       });
     });
